@@ -1,0 +1,16 @@
+{
+  "Title": "Payment Management",
+  "txt_Commissioni": "Commissions",
+  "txt_Richiedente": "Applicant",
+  "txt_DataRicchiesta": "Request Date",
+  "txt_statoRichiesta": "Request Status",
+  "txt_Inprogress": "In Progress",
+  "txt_Attivo": "Activated",
+  "txt_Disattivo": "Not Activated",
+  "txt_DettaglioCommissioni": "Commissions detail",
+  "btn_Activate": "Activate Payments",
+  "txt_ActivateInfo": "Select the payment systems for which you wish to request activation",
+  "txt_EmailInfo": "The email inserted will be used to send requests for additional information and / or inform you of the activation of the requested payment methods",
+  "btn_Inquiry": "Send Inquiry",
+  "txt_Email":"Enter Email"
+}

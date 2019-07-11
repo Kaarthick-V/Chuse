@@ -1,0 +1,85 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+#content-main{
+	width:100%;
+	background-color:#e1f1f9;
+	padding-top:12px;
+	padding-bottom:1px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	min-height:250px;
+	overflow:hidden;
+	
+
+ }
+ 
+ #report-menu-comand-container-header, #transfer-menu-comand-container-header{
+	padding-top:12px;
+	margin-left:18px;
+	margin-right:18px;
+}
+
+#report-menu-comand-container{
+	margin-left:18px;
+	margin-right:18px;
+}
+
+.button-round{
+	cursor:pointer;
+	background:#005087;
+	background-color:#005087;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Helvetica, Arial;
+	font-size:14px;
+	font-weight:normal;
+	padding:3px 12px;
+	text-decoration:none;
+	line-height: 1.4em;
+	}
+.button-round:hover {
+    	background:#39b7de;
+		background-color:#39b7de;
+    }
+.button-round:active {
+        position:relative;
+        top:1px;
+}
+
+
+.margin-59{
+	margin-top: 7px;
+}
+.align-center{/*name is collect*/
+	text-align:center;
+}
+
+.mat-dialog-container{
+	display:flex !important;
+	align-items: center !important;
+	justify-content: center !important;
+	padding:0px !important;
+}
+.payment-info-window table{
+	border-collapse: unset !important;
+	border-spacing: 2px !important;
+}
+.payment-info-window table td{
+	vertical-align: middle !important;
+}
+.payment-info-window fieldset{
+	  padding: 6px !important;
+		border: ridge !important;
+		border-color: white !important;
+}
+.payment-email input:focus{
+	background-color: white !important;
+}
+
+.float-right{
+	float:right;
+}

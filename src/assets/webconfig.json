@@ -1,0 +1,14 @@
+﻿{
+    "ENVIRONMENT_CONFIG":
+    {
+    "ENVIRONMENT": "TEST",
+    "DEV": "http://localhost:49949/api/",
+    "TEST":"http://10.21.137.207:230/api/",
+    "PRE": "",
+    "SANDBOX": " ",
+    "PROD": ""
+    },
+    "APP_CONFIG":{
+    "IS_LOG":false
+    }
+} 

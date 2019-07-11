@@ -1,0 +1,54 @@
+
+{
+    "info": [
+        {
+            "paymentmethodname": "",
+            "fees": [
+                {
+                    "name": "Commissione % per MOV",
+                    "value": ""
+                },
+                {
+                    "name": "Commissione fissa  per MOV",
+                    "value": "0,23 €"
+                },
+                {
+                    "name": "Commissione minima per MOV",
+                    "value": "0,3 €"
+                },
+                {
+                    "name": "Commissione % per STO",
+                    "value": ""
+                },
+                {
+                    "name": "Commissione fissa  per STO",
+                    "value": "0,23 €"
+                },
+                {
+                    "name": "Commissione minima per STO",
+                    "value": ""
+                },
+                {
+                    "name": "Commissione % Axerve",
+                    "value": "12"
+                },
+                {
+                    "name": "Commissione fissa Axerve",
+                    "value": ""
+                }
+            ]
+        }
+],
+
+        "fees": [
+            {
+                "name": "MOV%",
+                "value": "2"
+            },
+            {
+                "name": "STO%",
+                "value": "4"
+            }
+        ]
+       
+}

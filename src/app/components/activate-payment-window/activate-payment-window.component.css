@@ -1,0 +1,114 @@
+.payment-container {
+    /* position: fixed; */
+    /* top: 40px; */
+    /* right: 1%; */
+    font-size: 11pt;
+    -moz-box-shadow: 0px 15px 25px 0px rgba(0,0,0,1.0);
+    -webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,1.0);
+    box-shadow: 0px 15px 25px 0px rgba(0,0,0,1.0);
+    /* background-color: #C5E2EF; */
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    top: 6%; 
+    /* display: block; */
+    background: #ffffff;
+    position: absolute;
+    left: 30%;
+    text-align: start;
+    max-width: 600px;
+}
+.payment-title {
+    position: relative;
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 3px;
+    font-size: 16pt;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+    background-color: #005087;
+    -webkit-border-top-left-radius: 8px;
+    -webkit-border-top-right-radius: 8px;
+    -moz-border-radius-topleft: 8px;
+    -moz-border-radius-topright: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.payment-container-internal {
+    /* width: 400px; */
+    /* background-color: gray; */
+    padding-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.payment-info-window {
+    /* max-height: 180px; */
+    /* height: 180px; */
+    /* overflow: auto; */
+    max-width: 600px;
+    padding: 5px;
+}
+
+.close-box {
+    position: absolute;
+    right: 0px;
+    top: 6px;
+    padding-right: 4px;
+}
+.payment-content{
+    text-align: center;
+    font-size: 15pt;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.payment-info-title {
+    color: #005087;
+    background-color: #89B5CF;
+    width: 50%;
+    padding-top: 7px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    text-align: center;
+}
+.payment-info-content {
+    background-color: #6298BB;
+    color: white;
+    font-weight: normal;
+    padding-top: 7px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    width: 50%;
+    text-align: center;
+}
+td img{
+    width: 60px;
+    height: 40px;
+}
+.payment-email{
+    font-size: 10pt;
+}
+.payment-email-text{
+    padding-left: 10px;
+}
+.payment-proceed-desc{
+    font-size: 14pt;
+    text-align: justify;
+}
+.payment-list-container{
+    max-height: 350px;
+    overflow: auto;
+    padding: 6px;
+}
+.activate-payment-btn{
+    display: flex;
+    justify-content: center;
+}
+.header-payment{
+    background-color:#005087;
+    color:white;
+    text-align: center;
+    border-radius:6px
+}
