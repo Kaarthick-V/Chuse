@@ -1,0 +1,17 @@
+{
+  "Title": "Gestione Pagamento",
+  "txt_Commissioni": "Commissioni",
+  "txt_Richiedente": "Richiedente",
+  "txt_DataRicchiesta": "Data Ricchiesta",
+  "txt_statoRichiesta": "Stato Richiesta",
+  "txt_Inprogress": "In Progress",
+  "txt_Attivo": "Attivo",
+  "txt_Disattivo": "Disattivo",
+  "txt_DettaglioCommissioni": "Dettaglio Commissioni",
+  "btn_Activate": "Attiva i pagamenti",
+  "txt_ActivateInfo": "Seleziona i sistemi di pagamento per i quali desideri richiedere l'attivazion ",
+  "txt_EmailInfo": "L'email inserita verrà utilizzata per inviare richieste di informazioni aggiuntive e / o informarti dell'attivazione dei metodi di pagamento richiesti",
+  "btn_Inquiry": "Invia richiesta",
+  "txt_Email":"Inserisci l'email"
+
+}

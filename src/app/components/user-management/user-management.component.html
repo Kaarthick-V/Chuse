@@ -1,0 +1,90 @@
+<!-- <div id="content-main">
+  <div id="report-menu-comand-container"> -->
+<table id="userManage_tableMain">
+    <tbody>
+        <tr>
+            <th>
+
+            </th>
+            <th class="table_header">
+                {{'txt_Commissioni'|translate}}
+            </th>
+            <th class="table_header">
+                {{'txt_Richiedente'|translate}}
+            </th>
+            <th class="table_header">
+                {{'txt_DataRicchiesta'|translate}}
+
+            </th>
+            <th>
+                {{'txt_statoRichiesta'|translate}}
+            </th>
+        </tr>
+        <ng-container *ngFor="let payment of PaymentTypeList;let i = index">
+            <tr>
+                <td class="table_row">
+                    <div class="txt_bold"><img [src]="('./assets/images/'+payment.paymentType+'.svg')" width="80px" height="60px"></div>
+                    <div class="payment_icon">
+                        {{payment.description}}
+                    </div>
+                </td>
+                <td class="table_col spacing">
+                    <div *ngFor="let fee of PaymentTypeList1.fees;">
+                        <span style="float:left">{{fee.name}}</span>
+                        <span>{{fee.value}}</span>
+                    </div>
+                    <!-- <button >Toggle me</button> -->
+                    <button (click)="openDetail(i)" class="btn_detail">
+                        <img src="./assets/images/icon-info.png" height="15" />
+                    </button>
+
+                </td>
+                <td class="table_col">
+                    {{payment.reqBy}}
+                </td>
+                <td class="table_col">
+                    {{payment.reqDate}}
+                </td>
+                <!-- <td style="width: 12%;text-align: center;">
+                    <img src="./assets/Processing.jpg" width="35px" height="35px">
+                </td> -->
+                <td class="table_col" [ngSwitch]="payment.reqStatus">
+                    <span *ngSwitchCase="'INPROGRESS'">
+                        <img src="./assets/images/Processing.jpg" width="35px" height="35px">
+                    </span>
+                    <span *ngSwitchCase="'ACTIVATED'">
+                        <img src="./assets/images/tick.png" width="25px" height="25px">
+                        <!-- {{'txt_Attivo'|translate}} -->
+                    </span>
+                    <span *ngSwitchCase="'NOTACTIVATED'" class="txt_bold">
+
+                        {{'txt_Disattivo'|translate}}
+
+                    </span>
+                </td>
+                <br>
+            </tr>
+            <tr>
+                <td *ngIf="i==collapsed && isCollapsed" colspan=5 class="padding_left_3">
+                    <div class="pull-left">
+                        <span class="txt_title"> {{'txt_DettaglioCommissioni'|translate}}</span>
+                        <div class="payment-info width-full">
+                            <div *ngFor="let info of PaymentTypeList1.info;" class="info-div">
+                                <span>{{info.paymentmethodname}}</span>
+                                <div *ngFor="let fee of info.fees;">
+                                    <p>{{fee.name}}</p>
+                                    <p class="float-right">{{fee.value}}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            <tr>
+        </ng-container>
+    </tbody>
+</table>
+<span class="flex_center">
+    <input type="button" value="{{'btn_Activate'|translate}}" (click)="openActivatePaymentsDialog()" />
+</span>
+<!-- </div>
+</div> -->

@@ -1,0 +1,106 @@
+[
+    {
+        "imgPath": "http://172.17.4.63/mbo_activereport/Resources/Images/amazonpay.png",
+        "paymentInfo": [
+            {
+                "key": "MOV.%",
+                "value": "1.10"
+            },
+            {
+                "key": "MOV.fix",
+                "value": "0.20"
+            }
+        ]
+    },
+    {
+        "imgPath": "http://172.17.4.63/mbo_activereport/Resources/Images/GooglePay.png",
+        "paymentInfo": [
+            {
+                "key": "MOV.%",
+                "value": "1.10"
+            },
+            {
+                "key": "MOV.fix",
+                "value": "0.20"
+            }
+        ]
+    },
+    {
+        "imgPath": "http://172.17.4.63/mbo_activereport/Resources/Images/ideal.png",
+        "paymentInfo": [
+            {
+                "key": "MOV.%",
+                "value": "1.10"
+            },
+            {
+                "key": "MOV.fix",
+                "value": "0.20"
+            }
+        ]
+    },
+    {
+        "imgPath": "http://172.17.4.63/mbo_activereport/images/MULTIBANCO.png",
+        "paymentInfo": [
+            {
+                "key": "MOV.%",
+                "value": "1.10"
+            },
+            {
+                "key": "MOV.fix",
+                "value": "0.20"
+            }
+        ]
+    },
+    {
+        "imgPath": "http://172.17.4.63/mbo_activereport/Resources/Images/ideal.png",
+        "paymentInfo": [
+            {
+                "key": "MOV.%",
+                "value": "1.10"
+            },
+            {
+                "key": "MOV.fix",
+                "value": "0.20"
+            }
+        ]
+    },
+    {
+        "imgPath": "http://172.17.4.63/mbo_activereport/Resources/Images/GooglePay.png",
+        "paymentInfo": [
+            {
+                "key": "MOV.%",
+                "value": "1.10"
+            },
+            {
+                "key": "MOV.fix",
+                "value": "0.20"
+            }
+        ]
+    },
+    {
+        "imgPath": "http://172.17.4.63/mbo_activereport/Resources/Images/GooglePay.pngs",
+        "paymentInfo": [
+            {
+                "key": "MOV.%",
+                "value": "1.10"
+            },
+            {
+                "key": "MOV.fix",
+                "value": "0.20"
+            }
+        ]
+    },
+    {
+        "imgPath": "http://172.17.4.63/mbo_activereport/Resources/Images/ideal.png",
+        "paymentInfo": [
+            {
+                "key": "MOV.%",
+                "value": "1.10"
+            },
+            {
+                "key": "MOV.fix",
+                "value": "0.20"
+            }
+        ]
+    }
+]
